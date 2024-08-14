@@ -1,0 +1,21 @@
+Component
+    Component is a function whose first letter is a capital
+    Component is a custom tag.
+    Calling Component
+        Use html tags to call Components(eg div, p, .....)
+    Component rule
+        Component must return only one wrapper(you can have multiple tags inside wrapper but only one wrapper to be returned)
+    
+html tag
+    you can treat html tag (div,p) as data
+    it means you can return it or you can save tag to variable
+
+Use alt+shift+o for removing all unused imports
+
+
+CSS
+    inline CSS
+    external CSS
+
+props
+    
