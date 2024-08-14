@@ -16,6 +16,10 @@ Use alt+shift+o for removing all unused imports
 CSS
     inline CSS
     external CSS
+        define CSS in another file
+        import at index.js
+        use it
 
 props
-    
+    pass props
+    get props
