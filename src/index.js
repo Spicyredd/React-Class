@@ -4,14 +4,17 @@ import "./global.css";
 import "./index.css";
 import reportWebVitals from "./reportWebVitals";
 import App from "./App";
-import { BrowserRouter as Router } from 'react-router-dom';
+import { BrowserRouter as Router } from "react-router-dom";
+import { ToastContainer } from "react-toastify";
+import 'react-toastify/dist/ReactToastify.css';
 
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
-<Router>
-<App></App>
-</Router>
+  <Router>
+    <ToastContainer></ToastContainer>
+    <App></App>
+  </Router>
 );
 
 // If you want to start measuring performance in your app, pass a function

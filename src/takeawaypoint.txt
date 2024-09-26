@@ -40,3 +40,13 @@ when does component render
     when its useState variable changes
     or when its parent render
 
+request
+    c => post
+    r => get
+    u => patch
+    d => delete
+
+How to request backend
+    url =>
+    method
+

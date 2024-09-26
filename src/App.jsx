@@ -1,14 +1,15 @@
 import React from "react";
-import LearnUseRef1 from "./component/LearnUseRef/LearnUseRef1";
+import MyLinks from "./component/MyLinks";
+import MyRoute from "./component/MyRoute";
 
 
 const App = () => {
   return (
     <div>
-<LearnUseRef1></LearnUseRef1>
+      <MyLinks></MyLinks>
+      <MyRoute></MyRoute>
     </div>
   );
-  
 };
 
 export default App;

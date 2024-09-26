@@ -5,6 +5,7 @@ const LearnUseRef1 = () => {
   let ref2 = useRef();
   let ref3 = useRef();
   let button1 = useRef();
+  let inputRef = useRef();
   return (
     <div>
       <p ref={ref1}>Hello</p>
@@ -30,7 +31,14 @@ const LearnUseRef1 = () => {
       >
         Change CSS
       </button>
-    </div>
+     <br></br>
+      <button onClick={(e) =>{
+        inputRef.current.focus();
+      }}>
+        Focus Input
+      </button>
+      <input ref = {inputRef}></input>
+      </div>
   );
 };
 
